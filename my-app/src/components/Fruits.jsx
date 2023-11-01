@@ -1,6 +1,6 @@
 import React from "react";
-import Vegetables from "./vegetables";
-import { Citrus, NonCitrus } from "./typeFruit";
+import Vegetables from "./Vegetables";
+import { Citrus, NonCitrus } from "./TypeFruit";
 
 class Fruits extends React.Component {
   constructor(props) {
