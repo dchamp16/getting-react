@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; // Import React
+import "./App.scss";
+import { Fruits, TypesOfFood } from "./components/fruits"; // Import Fruits and TypesOfFood
+import { TodayDate } from "./components/timeDate";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TodayDate date={Date()} />
+      <TypesOfFood />
     </div>
   );
 }
