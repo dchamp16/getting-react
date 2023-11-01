@@ -1,0 +1,17 @@
+#head {
+  border: 2px solid red;
+}
+
+#head ul {
+  list-style-type: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
