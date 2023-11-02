@@ -11,10 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      <div className="App">
-        <TodayDate date={Date()} />
-        <TypesOfFood />
-      </div>
+      <TodayDate date={Date()} />
+      <TypesOfFood />
       <Footer />
     </>
   );
